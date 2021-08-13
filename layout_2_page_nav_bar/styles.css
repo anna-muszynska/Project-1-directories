@@ -1,0 +1,178 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+body {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+a {
+  list-style-type: none;
+  color: #2a2a2a;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 12px;
+  align-items: center;
+  height: 100px;
+  background-color: #fafafa;
+}
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #fafafa;
+  z-index: -1;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+.menu a {
+  padding: 0px 24px;
+}
+
+.menu a:first-of-type {
+  color: #ff685f;
+}
+
+nav div button {
+  height: 40px;
+  margin: 0px 0px 0px 40px;
+  padding: 0px 20px;
+  background-color: #ff695f;
+  border-radius: 20px;
+  color: #fff;
+  border-style: none;
+  letter-spacing: 1px;
+}
+
+.menu_mobile {
+  display: none;
+}
+
+#show_menu {
+  display: none;
+}
+
+header {
+  padding: 0px 12px;
+  margin: 136px 0px 130px;
+  position: relative;
+  z-index: 1;
+}
+
+h6 {
+  color: #ff695f;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+h1,
+h1 span {
+  font-size: 50px;
+}
+
+#first_span {
+  color: #03a4ed;
+}
+
+#second_span {
+  color: #ff695f;
+}
+
+header p {
+  color: #2a2a2a;
+  margin: 20px 0px;
+  font-weight: lighter;
+}
+
+header div {
+  display: flex;
+}
+
+.message {
+  height: 46px;
+  padding: 12px 25px;
+  background-color: #03a4ed;
+  border-radius: 23px;
+  color: #fff;
+  border-style: none;
+}
+
+.phone_icon_button {
+  background: linear-gradient(
+    105deg,
+    rgba(255, 104, 95, 1) 0%,
+    rgba(255, 144, 104, 1) 100%
+  );
+  height: 46px;
+  width: 46px;
+  border-radius: 23px;
+  border-style: none;
+  margin: 0px 0px 0px 30px;
+}
+
+#phone_icon {
+  height: 18px;
+  width: 18px;
+  margin-top: 4px;
+}
+
+.phone_number {
+  height: 46px;
+  margin: 0px 0px 0px 10px;
+  color: #ff695f;
+  border-style: none;
+  background-color: #fff;
+}
+
+header ol {
+  display: flex;
+  margin: 60px 0px 0px;
+}
+
+header ol li {
+  list-style-type: none;
+  margin: 0px 0px 0px 8px;
+  padding: 0px 4px 0px 4px;
+  font-size: 20px;
+}
+
+header ol li:first-of-type {
+  color: #f00;
+  border-bottom: 3px solid #f00;
+}
+
+.top_left_banner {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+}
+
+.top_right_banner {
+  position: absolute;
+  top: 100px;
+  right: 0px;
+}

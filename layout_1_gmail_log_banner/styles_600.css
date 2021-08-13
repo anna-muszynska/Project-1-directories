@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+  .container {
+    border: none;
+    width: 100vw;
+    height: 100vh;
+    padding: 24px 24px 36px;
+  }
+
+  a {
+    font-size: 12px;
+  }
+
+  .mail_input:focus-visible {
+    border-style: none;
+    border: 3px solid #1a73e8;
+    outline-color: transparent;
+  }
+  .forgot_adress,
+  .other_options_div {
+    width: auto;
+  }
+
+  footer {
+    max-width: 100vw;
+    padding: 0px 10px 25px;
+  }
+}

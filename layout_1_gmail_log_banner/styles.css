@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.container {
+  width: 448px;
+  height: 500px;
+  padding: 48px 40px 36px;
+  border-radius: 8px;
+  border: 1px solid lightgrey;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 75px;
+  height: 24px;
+}
+
+.log_in_header {
+  height: 47px;
+  padding: 16px 0px 0px;
+}
+
+.open_gmail_banner {
+  height: 32px;
+  padding: 8px 0px 0px;
+  margin-top: 8px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mail_input {
+  height: 54px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 13px 15px;
+  margin-top: 24px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.mail_input:focus {
+  outline-color: transparent;
+  border-style: none;
+  border: 3px solid #1a73e8;
+}
+
+.forgot_adress {
+  width: 368px;
+  height: 32px;
+  padding: 9px 0px 3px;
+}
+
+.other_options_div {
+  width: 368px;
+  height: 52px;
+  padding: 9px 0px 3px;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #5f6368;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.next_button {
+  border-style: none;
+  color: #ffffff;
+  background-color: #1a73e8;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px 25px;
+  border-radius: 4px;
+}
+
+footer {
+  width: 448px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+footer select {
+  border-style: none;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.links a {
+  color: #757575;
+  padding: 0px 10px;
+  font-weight: lighter;
+  font-size: 12px;
+}
